@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Soul Founder - Asociación Civil</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    
+    
+	<style>
+	.blog-footer {
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+}.bg-color{
+  
+  background-image: linear-gradient(150deg, #2d1582 0%, #19a0ff 100%);
+    background-repeat: repeat-x;
+}.bg-color2{
+  
+  background-image: linear-gradient(150deg, #b80f0f 0%, #ffc419  100%);
+    background-repeat: repeat-x;
+}.bg-color3{
+  
+  background-image: linear-gradient(150deg, #158256  0%, #19ff65  100%);
+    background-repeat: repeat-x;
+}.fas{
+  margin: 0px 10px;
+}.display-4 {
+    font-size: 1.5rem; 
+    font-weight: 300;
+    line-height: 1.2;
+}
+.pymnt-itm h2 {
+    background-color: #e9e9e9;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 0;
+    padding: 28px 0 28px 20px;
+}
+.pymnt-itm.active h2 {
+    background-image: linear-gradient(150deg, #2d1582 0%, #19a0ff 100%);
+    color: #fff;
+    cursor: default;
+}
+
+.form-control{
+    padding:1rem .8rem;
+}
+.card-expl h4 {
+    font-weight: 400;
+    margin: 0;
+}
+	</style>
+  </head>
+
+  <body>
+
+    <div class="container">
+      <header class="blog-header py-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-4 text-center">
+            <!-- <a href="#"><img src="logoMedVents.png" style="width:100%; max-width:184px; max-height:30px;"></a> -->
+            <a class="blog-header-logo text-dark" href="index.html" style="font-size:2.5em; text-decoration:none"><b>Soul</b>Founder</a>
+          </div>
+          <div class="col-4 d-flex justify-content-end align-items-center">
+              <i class="fas fa-search"></i>
+              <i class="fas fa-user-circle"></i>
+          </div>
+        </div>
+      </header>
+    </div>
+    <div style="height:40vh; background-image: url(https://picsum.photos/1080/720/?image=453); background-size:cover; background-position:center;">
+    </div>
+    <div style="text-align:center; width:100%; position:relative; top: -25px; ">
+        <img src="https://picsum.photos/120/120/?random" alt="" class="rounded-circle" style="border:#fff 8px solid;">
+        <h1>Nombre Fundación A.C.</h1>
+        <h6 class=" text-primary">Desarrollo social</h6>
+    </div>
+    <div class="container">
+        <section>
+            <div class="row">
+                <div class="col-sm-12 col-md-8">
+                    <h2  class=" text-primary">¿Quiénes somos?</h2><br>
+                    <p style="font-size:20px; font-weight:bold; color:#777;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet ornare massa, at facilisis nibh finibus sit amet. Aliquam sodales facilisis magna ut placerat. Vestibulum dui lacus, porta sit amet porta quis, malesuada ut est. </p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <img src="https://picsum.photos/800/800/?image=466" class="rounded" alt="" style="width:100%;">
+                </div>
+            </div><br>
+        </section>
+        <section>
+            <form action="#" method="POST" id="payment-form" style="margin:25px 0px;">
+                <input type="hidden" name="token_id" id="token_id">
+                <input type="hidden" name="use_card_points" id="use_card_points" value="false">
+                <div class="pymnt-itm card active" style=" background-color:#fbfbfb">
+                    <h2>Tarjeta de crédito o débito</h2>
+                    <div class="row" style="padding:30px 0px;">
+                        <div class="col-sm-12 col-md-4  text-right" style="padding:0px 45px; ">
+                            <div class="credit">
+                                <h5>Tarjetas de crédito</h5>
+                                <img src="cards1.png" alt="Credit Cards">
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-8 text-left"  style="padding:0px 45px;">
+                            <div class="debit">
+                                <h5>Tarjetas de débito</h5>
+                                <img src="cards2.png" alt="Credit Cards" style="max-width:100%;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="padding:0px 15px;">
+                        <div class="col-sm-6">
+                            <label>Nombre del titular</label>
+                            <input type="text" class="form-control" placeholder="Como aparece en la tarjeta" autocomplete="off" data-openpay-card="holder_name">
+                        </div>
+                        <div class="col-sm-6">
+                            <label>Número de tarjeta</label>
+                            <input type="text" class="form-control" autocomplete="off" data-openpay-card="card_number">
+                        </div>
+                    </div>
+                    <div class="row" style="padding:0px 15px; margin-top:25px;">
+                        <div class="col-sm-6">
+                            <label>Fecha de expiración</label>
+                        </div>
+                        <div class="col-sm-6">
+                            <label>Código de seguridad</label>
+                        </div>
+                    </div>
+                    <div class="row" style="padding:0px 15px; margin-bottom:25px;">
+                        <div class="col-sm-3" style="margin:10px 0px;">
+                            <input type="text" class="form-control" placeholder="Mes" data-openpay-card="expiration_month">
+                        </div>
+                        <div class="col-sm-3" style="margin:10px 0px;">
+                            <input type="text" class="form-control"  placeholder="Año" data-openpay-card="expiration_year">
+                        </div>
+                        <div class="col-sm-3" style="margin:10px 0px;">
+                            <input type="text" class="form-control" placeholder="3 dígitos" autocomplete="off" data-openpay-card="cvv2">
+                        </div>
+                        <div class="col-sm-3 text-center" style="margin:10px 0px;">
+                            <img src="cvv.png" alt="" style="max-width:100%;">
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top:25px;">
+                        <div class="col-sm-12 col-md-4"></div>
+                        <div class="col-sm-12 col-md-4" style="text-align:right; padding-right:30px; ">
+                            <b>Transacciones realizadas vía:</b><br>
+                            <img src="openpay.png" alt="OpenPay">
+                        </div>
+                        <div class="col-sm-12 col-md-4" style="padding-right:30px; padding-left:30px;  padding-top:8px;">
+                            <img src="security.png" alt="OpenPay" style="float:left; width:35px; margin-right:15px; "> 
+                            <b>Tus pagos se realizan de forma segura con encriptación de 256 bits</b>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top:15px; margin-bottom:25px">
+                        <div class="col-sm-12 text-right" style="padding-right:30px; margin-bottom:15px;">
+                            <button class="btn btn-primary btn-lg"><i class="fas fa-hands-helping"></i> Donar</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </div>
+    <footer class="blog-footer">
+      <p>Hecho con <i class="fas fa-heart"></i> por <a href="https://twitter.com/mdo">Zerep</a>.</p>
+ 
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+  </body>
+</html>
